@@ -6,6 +6,7 @@ Team 10 Name:
 
 Team Members:
 	Aleeza Ladhani - 8195730
+	Atinderpaul Kanwar - 8732400
 
 Product Name:
 	PocketPantry
