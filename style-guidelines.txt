@@ -1,0 +1,33 @@
+Overall Look and Feel of Roomie
+===============================
+
+The website should be sleek and simple to navigate.
+
+Colours
+========
+For PocketPantry, we'll be using exciting, yet simple colours.
+These are our color swatches:
+
+Dark Blue ? #34385B
+Green ? #09BA8E
+Yellow ? #F2EE74
+Red ? #F5686C 
+Gray ? #F0F0F1
+
+Iconography
+===========
+Simple, flat icon design
+Material design icons
+
+Typography
+==========
+We'll use Ubuntu from Google Fonts.
+https://fonts.google.com/specimen/Ubuntu
+
+Links
+=====
+Links are not underlined, but change color when hovered over.
+
+Buttons
+=======
+Flat buttons
