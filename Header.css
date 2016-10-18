@@ -1,7 +1,7 @@
 ul {
     list-style-type: none;
     margin: 0;
-    background-color: #333;
+    background-color: #34385B;
     position: fixed;
     top: 0;
     left: 0;
@@ -21,7 +21,7 @@ li a {
 }
 
 li a:hover:not(.active) {
-    background-color: #34385B;
+    background-color: #09BA8E;
 }
 
 .active {
