@@ -1,6 +1,6 @@
 /****  HEADER  ****/
 
-ul {
+.header {
     list-style-type: none;
     margin: 0;
     background-color: #34385B;
@@ -10,11 +10,11 @@ ul {
     width: 100%;
 }
 
-li {
+.header .li {
     float: left;
 }
 
-li a {
+.header .li a {
     display: block;
     color: white;
     text-align: center;
@@ -22,7 +22,7 @@ li a {
     text-decoration: none;
 }
 
-li a:hover:not(.active) {
+.header .li a:hover:not(.active) {
     background-color: #09BA8E;
 }
 
