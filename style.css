@@ -26,14 +26,6 @@ li a:hover:not(.active) {
     background-color: #09BA8E;
 }
 
-.active {
-    background-color: #4CAF50;
-}
-body{
-background: #09BA8E;
-text-align:center;
-}
-
 
 /****  COMMON ELEMENTS (Buttons)  ****/
 
@@ -67,6 +59,10 @@ a{
 	color:#2f2d2d;
 }
 
+body{
+	background: #09BA8E;
+	text-align:center;
+}
 
 
 /****  FEATURES  ****/
