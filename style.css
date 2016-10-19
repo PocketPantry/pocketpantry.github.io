@@ -35,8 +35,28 @@
 }
 
 /****  COMMON ELEMENTS (Buttons)  ****/
+/* Basic Indentation for all pages */
+.indent {
+    margin: 100px 100px 100px 100px;
+}
 
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    color: #09BA8E;
+    font-size: 30pt;
+}
 
+h2 {
+    font-family: 'Ubuntu', sans-serif;
+    color: #F5686C;
+    font-size: 25pt;
+}
+
+h3 {
+    font-family: 'Ubuntu', sans-serif;
+    color: #09BA8E;
+    font-size: 20pt;
+}
 
 
 /****  HOME PAGE  ****/
