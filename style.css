@@ -49,15 +49,19 @@ h1 {
 h2 {
     font-family: 'Ubuntu', sans-serif;
     color: #F5686C;
-    font-size: 25pt;
+    font-size: 20pt;
 }
 
 h3 {
     font-family: 'Ubuntu', sans-serif;
-    color: #09BA8E;
-    font-size: 20pt;
+    color: #2f2d2d;
+    font-size: 15pt;
 }
 
+p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 12pt;
+}
 
 /****  HOME PAGE  ****/
 
