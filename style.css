@@ -1,18 +1,24 @@
-ul {
+/****  HEADER  ****/
+
+.header {
     list-style-type: none;
-    margin: 0;
-    background-color: #333;
+
+    background-color: #34385B;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
 }
 
-li {
-    float: left;
+.header .indent {
+    margin:0 100px;
 }
 
-li a {
+.header .li {
+    float: right;
+}
+
+.header .li a {
     display: block;
     color: white;
     text-align: center;
@@ -20,10 +26,61 @@ li a {
     text-decoration: none;
 }
 
-li a:hover:not(.active) {
-    background-color: #111;
+.header .li a:hover:not(.active) {
+    background-color: #09BA8E;
 }
 
-.active {
-    background-color: #4CAF50;
+.header .active {
+    background-color: #09BA8E;
 }
+
+/****  COMMON ELEMENTS (Buttons)  ****/
+
+
+
+
+/****  HOME PAGE  ****/
+
+.o{
+    background: #09BA8E;
+    text-align:center;
+}
+
+.y{
+    width: 1000px;
+    height: 600px;
+    background: #F0F0F1;
+    margin: 25px auto;
+    border: solid 2px #F5686C;
+}
+.j{
+    text-align:center;
+    font-family:"Times New Roman";
+    font-size: 24pt;
+    color:#F5686C;
+}
+.n{
+    height:2px;
+    color:#F5686C;
+}
+
+.a{
+    font-family: "Calibri";
+    font-size: 12pt;
+    text-align: left;
+    text-indent: 48px;
+    color:#2f2d2d;
+}
+
+
+/****  FEATURES  ****/
+
+
+
+
+/****  ABOUT US  ****/
+
+
+
+
+/****  CONTACT US  ****/
