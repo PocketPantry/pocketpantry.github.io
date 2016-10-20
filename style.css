@@ -36,6 +36,29 @@
     background-color: #09BA8E;
 }
 
+/****  ALL INPUTS  ****/
+input {
+    border: none;
+    border-bottom: 2px solid #555;
+    border-radius: 5px;
+    background-color: #F0F0F1;
+    padding: 12px 20px;
+    margin: 8px 0;
+    outline: none;
+}
+
+textarea {
+    border: none;
+    border-bottom: 2px solid #555;
+    border-radius: 5px;
+    background-color: #F0F0F1;
+    padding: 12px 20px;
+    margin: 8px 0;
+    resize: none;
+    outline: none;
+}
+
+
 /****  COMMON ELEMENTS (Buttons)  ****/
 /* Basic Indentation for all pages */
 .indent {
@@ -48,7 +71,6 @@ body {
 
 .font {
     font-family: 'Ubuntu', sans-serif;
-    margin: 0;
 }
 
 h1 {
