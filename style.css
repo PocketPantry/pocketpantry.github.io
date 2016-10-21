@@ -249,6 +249,7 @@ h3 {
     float: left;
     width: 20%;
     box-sizing: border-box;
+    margin: 1%;
 }
 
 .img:hover {
@@ -261,7 +262,7 @@ h3 {
 }
 
 .des {
-    padding: 15px;
+    padding: 5%;
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
 }
