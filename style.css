@@ -64,11 +64,7 @@ textarea {
 .indent {
     margin: 60px 100px 60px 100px;
 }
-.button-container{
-	position:absolute;
-	text-align:center;
-	top:320px;
-	width:100%
+
 }		
 
 /*Background */
@@ -107,7 +103,12 @@ h3 {
     background: #09BA8E;
     text-align:center;
 }
-
+.button-container{
+	position:absolute;
+	text-align:center;
+	top:320px;
+	width:100%
+}
 .y{
     width: 1000px;
     height: 600px;
