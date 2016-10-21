@@ -111,7 +111,7 @@ h3 {
 }
 .j{
     text-align:center;
-    font-family:"Times New Roman";
+    font-family: "Times New Roman", serif;
     font-size: 24pt;
     color:#F5686C;
 }
@@ -121,7 +121,7 @@ h3 {
 }
 
 .a{
-    font-family: "Calibri";
+    font-family: "Calibri", serif;
     font-size: 12pt;
     text-align: left;
     text-indent: 48px;
@@ -140,3 +140,8 @@ h3 {
 
 
 /****  CONTACT US  ****/
+.info,.form {
+    float: left;
+    width: 50%;
+    font-family: 'Ubuntu', sans-serif;
+}
