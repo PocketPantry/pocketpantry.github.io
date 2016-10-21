@@ -76,6 +76,12 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
+p {
+    font-family: 'Ubuntu', sans-serif;
+    color: #09BA8E;
+    font-size: 30pt;	
+}
+
 /****  Headings  ****/
 h1 {
     font-family: 'Ubuntu', sans-serif;
