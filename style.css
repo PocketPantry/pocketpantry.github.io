@@ -43,7 +43,7 @@ input {
     border-radius: 5px;
     background-color: #F0F0F1;
     padding: 12px 20px;
-    margin: 8px 0;
+    margin: 8px;
     outline: none;
 }
 
@@ -53,13 +53,14 @@ textarea {
     border-radius: 5px;
     background-color: #F0F0F1;
     padding: 12px 20px;
-    margin: 8px 0;
+    margin: 8px;
     resize: none;
     outline: none;
 }
 
 
 /****  COMMON ELEMENTS (Buttons)  ****/
+
 /* Basic Indentation for all pages */
 .indent {
     margin: 60px 100px 60px 100px;
@@ -165,11 +166,11 @@ h3 {
 
 @keyframes slidy{
     0%{
-        left: 0%
+        left: 0
     }
 
     10%{
-        left: 0%;
+        left: 0;
     }
 
     12%{
@@ -229,11 +230,11 @@ h3 {
     }
 
     96%{
-        left: 0%;
+        left: 0;
     }
 
     100%{
-        left: 0%;
+        left: 0;
     }
 }
 
@@ -271,5 +272,16 @@ h3 {
 .info,.form {
     float: left;
     width: 50%;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: Ubuntu, sans-serif;
+}
+
+.send_button {
+    font-family: Ubuntu, sans-serif;
+    height: 5%;
+    padding: 0 4% 0 1%;
+    border: 2px solid #555;
+    border-radius: 5px;
+    margin: 8px;
+    outline-style: none;
+    background: #F0F0F1 url('images/contact_us/send_icon.png') no-repeat right center;
 }
