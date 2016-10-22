@@ -1,6 +1,6 @@
 /****  HEADER  ****/
 
-.header {
+.nav {
     list-style-type: none;
     overflow: hidden;
     background-color: #34385B;
@@ -12,15 +12,15 @@
     box-sizing: border-box;
 }
 
-.header .indent {
+.nav .indent {
     margin:0 100px;
 }
 
-.header .li {
+.nav .li {
     float: right;
 }
 
-.header .li a {
+.nav .li a {
     display: block;
     color: white;
     text-align: center;
@@ -29,11 +29,11 @@
     height: 32px;
 }
 
-.header .li a:hover:not(.active) {
+.nav .li a:hover:not(.active) {
     background-color: #09BA8E;
 }
 
-.header .active {
+.nav .active {
     background-color: #09BA8E;
 }
 
