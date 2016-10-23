@@ -265,7 +265,7 @@ h3 {
 }
 
 .photo-grid figure {
-    height: relative;
+    height: 200px;
     overflow: hidden;
     position: relative;
     width: relative;
@@ -295,7 +295,7 @@ h3 {
     font-size: 1.5em;
     position: relative;
     top: -40px;
-    width: 300px;
+    width: 200px;
     -wekbit-transition: all 300ms ease-out;
     -moz-transition: all 300ms ease-out;
     transition: all 300ms ease-out;
