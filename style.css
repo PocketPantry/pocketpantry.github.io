@@ -237,7 +237,7 @@ h3 {
 
 
 .photo-grid {
-    margin: auto;
+    margin: 1em;
     max-width: 100%;
     text-align: center;
 }
@@ -245,7 +245,7 @@ h3 {
 .photo-grid li {
     border: 5px solid white;
     display: inline-block;
-    margin: auto;
+    margin: 1em;
     width: relative;
 }
 
