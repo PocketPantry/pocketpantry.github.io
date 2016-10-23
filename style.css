@@ -293,6 +293,7 @@ h3 {
 .photo-grid figcaption p {
     display: table-cell;
     font-size: 1.5em;
+    font-family: 'Ubuntu', sans-serif;
     position: relative;
     top: -40px;
     width: 300px;
@@ -310,6 +311,27 @@ h3 {
 
 .photo-grid li:hover figcaption {
     opacity: 1;
+}
+
+.sign-up-button {
+	padding: 10px 20px;
+	background: #F2EE74;
+	border-radius: 20px;
+	display:block;
+	width: 110px;
+}
+
+.sign-up-button a{
+	font-family: 'ubuntu', sans-serif;
+	font-size: 20pt;
+	text-decoration: none;
+	text-align: center;
+	color: #34385B
+}
+
+.sign-up-button:hover{
+	background-color: #09BA8E
+	color: #F0F0F1;
 }
 
 
