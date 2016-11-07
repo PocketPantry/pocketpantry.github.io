@@ -42,7 +42,7 @@
 /****  ALL INPUTS  ****/
 input {
     border: none;
-    border-bottom: 2px solid #555;
+    border-bottom: 2px solid #34385B;
     border-radius: 5px;
     background-color: #F0F0F1;
     padding: 12px 20px;
@@ -52,7 +52,7 @@ input {
 
 textarea {
     border: none;
-    border-bottom: 2px solid #555;
+    border-bottom: 2px solid #34385B;
     border-radius: 5px;
     background-color: #F0F0F1;
     padding: 12px 20px;
@@ -364,17 +364,17 @@ h3 {
 /****  CONTACT US  ****/
 .info,.form {
     float: left;
-    width: 50%;
+    width: 35%;
     font-family: Ubuntu, sans-serif;
 }
 
 .send_button {
     font-family: Ubuntu, sans-serif;
     height: 5%;
+    width: auto;
     padding: 0 4% 0 1%;
     border: 2px solid #555;
     border-radius: 5px;
     margin: 8px;
     outline-style: none;
-    background: #F0F0F1 url('images/contact_us/send_icon.png') no-repeat right center;
 }
