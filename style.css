@@ -26,6 +26,7 @@
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
+    font-family: Ubuntu, sans-serif;
     height: 32px;
 }
 
@@ -47,6 +48,7 @@ input {
     padding: 12px 20px;
     margin: 8px;
     outline: none;
+    font-family: Ubuntu, sans-serif;
 }
 
 textarea {
@@ -58,6 +60,7 @@ textarea {
     margin: 8px;
     resize: none;
     outline: none;
+    font-family: Ubuntu, sans-serif;
 }
 
 /****  COMMON ELEMENTS (Buttons)  ****/
@@ -245,7 +248,7 @@ h3 {
     border: 5px solid white;
     display: inline-block;
     margin: 1em;
-    width: relative;
+    width: auto;
 }
 
 .photo-grid img {
@@ -267,7 +270,7 @@ h3 {
     height: 200px;
     overflow: hidden;
     position: relative;
-    width: relative;
+    width: auto;
 }
 
 .photo-grid figcaption {
@@ -329,7 +332,7 @@ h3 {
 }
 
 .sign-up-button:hover{
-	background-color: #09BA8E
+	background-color: #09BA8E;
 	color: #F0F0F1;
 }
 
@@ -363,7 +366,7 @@ h3 {
 /****  CONTACT US  ****/
 .info,.form {
     float: left;
-    width: 35%;
+    width: 40%;
     font-family: Ubuntu, sans-serif;
 }
 
