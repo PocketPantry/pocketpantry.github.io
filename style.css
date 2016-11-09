@@ -264,6 +264,11 @@ button:hover{
 }
 
 
+.blocks-left img{
+    margin-left: 20px;
+    float: right
+}
+
 /****  FEATURES  ****/
 
 .blocks-left {
