@@ -42,14 +42,13 @@
 #main-wrapper {
     box-sizing: border-box;
     min-height: 100%;
-    padding: 0 0 100px;
     position: relative;
 }
 
 footer {
     bottom: 0;
     left: 0;
-    position: absolute;
+    position: relative;
     width: 100%;
     list-style-type: none;
     background-color: #34385B;
@@ -403,12 +402,18 @@ button:hover{
 
 
 /****  CONTACT US - Coded by Atinderpaul Kanwar 8732400 ****/
-.info,.form {
-    float: left;
-    font-family: Ubuntu, sans-serif;
+.info {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
 }
 
-.info,.form li {
-    padding-right: 2%;
+.info li {
+    display: inline-block;
     width: auto;
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    position: relative;
 }
