@@ -1,4 +1,5 @@
-/****  HEADER - Coded by Atinderpaul Kanwar 8732400 ****/
+/****  Coded by Atinderpaul Kanwar 8732400  ****/
+/****  HEADER ****/
 .nav {
     list-style-type: none;
     overflow: hidden;
@@ -12,8 +13,8 @@
     height: 60px;
 }
 
-.nav .indent {
-    margin:0 100px;
+.indent {
+    margin: 0 100px 0 100px;
 }
 
 .nav .li {
@@ -38,13 +39,7 @@
     background-color: #09BA8E;
 }
 
-/****  FOOTER - Coded by Atinderpaul Kanwar 8732400 ****/
-#main-wrapper {
-    box-sizing: border-box;
-    min-height: 100%;
-    position: relative;
-}
-
+/****  FOOTER ****/
 footer {
     bottom: 0;
     left: 0;
@@ -55,50 +50,29 @@ footer {
     box-sizing: border-box;
     z-index: 9999;
     height: 60px;
+    padding-top: 30px;
 }
 
-footer a {
+footer p{
+    margin: 0 100px 0 100px;
+}
+
+footer .aLeft {
+    float: left;
     color: white;
-    text-align: center;
-    width: 100%;
-}
-
-/****  ALL INPUTS - Coded by Atinderpaul Kanwar 8732400 ****/
-input {
-    border: none;
-    border-bottom: 2px solid #34385B;
-    border-radius: 5px;
-    background-color: #F0F0F1;
-    padding: 12px 20px;
-    margin: 8px;
-    outline: none;
+    text-decoration: none;
     font-family: Ubuntu, sans-serif;
 }
 
-textarea {
-    border: none;
-    border-bottom: 2px solid #34385B;
-    border-radius: 5px;
-    background-color: #F0F0F1;
-    padding: 12px 20px;
-    margin: 8px;
-    resize: none;
-    outline: none;
+footer .aRight {
+    color: #F5686C;
+    float: right;
+    padding-right: 20px;
+    text-decoration: none;
     font-family: Ubuntu, sans-serif;
-    width: 100%;
 }
 
-/****  COMMON ELEMENTS - Coded by Atinderpaul Kanwar 8732400 ****/
-.nav {
-    list-style-type: none;
-    overflow: hidden;
-    background-color: #34385B;
-    box-sizing: border-box;
-    z-index: 9999;
-    width: 100%;
-    height: 60px;
-}
-
+/****  COMMON ELEMENTS  ****/
 .layout {
     margin: 60px 100px 60px 100px;
 }
@@ -155,6 +129,7 @@ button:hover{
     background-color: #09BA8E;
     color: #F0F0F1;
 }
+/**** end coded by Atinderpaul Kanwar ****/
 
 /****  HOME PAGE  ****/
 
@@ -422,3 +397,30 @@ button:hover{
     height: auto;
     position: relative;
 }
+
+/****  ALL INPUTS ****/
+/*Input boxes and text areas only my contact page */
+input {
+    border: none;
+    border-bottom: 2px solid #34385B;
+    border-radius: 5px;
+    background-color: #F0F0F1;
+    padding: 12px 20px;
+    margin: 8px;
+    outline: none;
+    font-family: Ubuntu, sans-serif;
+}
+
+textarea {
+    border: none;
+    border-bottom: 2px solid #34385B;
+    border-radius: 5px;
+    background-color: #F0F0F1;
+    padding: 12px 20px;
+    margin: 8px;
+    resize: none;
+    outline: none;
+    font-family: Ubuntu, sans-serif;
+    width: 100%;
+}
+/**** end coded by Atinderpaul Kanwar ****/
