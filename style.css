@@ -13,7 +13,7 @@
     height: 60px;
 }
 
-.indent {
+.nav .indent {
     margin: 0 100px 0 100px;
 }
 
@@ -64,12 +64,38 @@ footer .aLeft {
     font-family: Ubuntu, sans-serif;
 }
 
-footer .aRight {
+footer .privacy {
     color: #F5686C;
     float: right;
     padding-right: 20px;
     text-decoration: none;
     font-family: Ubuntu, sans-serif;
+}
+
+footer .contact {
+    color: #F5686C;
+    float: right;
+    padding-right: 20px;
+    text-decoration: none;
+    font-family: Ubuntu, sans-serif;
+}
+
+span{
+    background-color: #34385B;
+    color: white;
+    text-decoration: none;
+    font-family: Ubuntu, sans-serif;
+    position: absolute;
+    float: right;
+    display: none;
+    bottom: 60px;
+    right: 100px;
+    line-height: 1.5;
+    padding: 1% 1% 0 1%;
+}
+
+footer .contact:hover span{
+    display:block;
 }
 
 /****  COMMON ELEMENTS  ****/
@@ -423,4 +449,5 @@ textarea {
     font-family: Ubuntu, sans-serif;
     width: 100%;
 }
+
 /**** end coded by Atinderpaul Kanwar ****/
