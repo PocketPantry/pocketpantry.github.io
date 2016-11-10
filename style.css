@@ -1,5 +1,4 @@
-/****  Coded by Atinderpaul Kanwar 8732400  ****/
-/****  HEADER ****/
+/****  HEADER - Coded by Atinderpaul Kanwar 8732400 ****/
 .nav {
     list-style-type: none;
     overflow: hidden;
@@ -39,7 +38,7 @@
     background-color: #09BA8E;
 }
 
-/****  FOOTER ****/
+/****  FOOTER - Coded by Atinderpaul Kanwar 8732400 ****/
 footer {
     bottom: 0;
     left: 0;
@@ -98,7 +97,7 @@ footer .contact:hover span{
     display:block;
 }
 
-/****  COMMON ELEMENTS  ****/
+/****  COMMON ELEMENTS - Coded by Atinderpaul Kanwar 8732400 ****/
 .layout {
     margin: 60px 100px 60px 100px;
 }
