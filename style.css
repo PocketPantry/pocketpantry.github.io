@@ -186,6 +186,11 @@ button:hover{
     width:100%
 }
 
+.block-left{
+    text-align: center;
+    padding-top: 20px;
+}
+
 /* Slider */
 .slider{
     overflow: hidden;
