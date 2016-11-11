@@ -1,25 +1,29 @@
 /****  HEADER - Coded by Atinderpaul Kanwar 8732400 ****/
+/* Changed original header properties such as background, position */
 .nav {
     list-style-type: none;
-    overflow: hidden;
-    background-color: #34385B;
+    overflow: hidden;  /* Makes sure there are no padding or margins in header */
+    background-color: #34385B;  /* CHanged to main comapany color */
     box-sizing: border-box;
     z-index: 9999;
-    position: fixed;
-    top: 0;
+    position: fixed;  /* header always stays with the scroll */
+    top: 0;  /* header is also always fixed to the top */
     left: 0;
-    width: 100%;
+    width: 100%;  /* width of header takes up entire screen width */
     height: 60px;
 }
 
+/* The indent of the header is 100px on both sides (symmetrical) */
 .nav .indent {
     margin: 0 100px 0 100px;
 }
 
+/* All lists are on the right */
 .nav .li {
     float: right;
 }
 
+/* attributes for the list buttons that are references to other pages */
 .nav .li a {
     display: inline-block;
     color: white;
@@ -30,15 +34,13 @@
     height: 32px;
 }
 
+/* Changes color of list when mouse is hovering on top */
 .nav .li a:hover:not(.active) {
     background-color: #09BA8E;
 }
 
-.nav .active {
-    background-color: #09BA8E;
-}
-
 /****  FOOTER - Coded by Atinderpaul Kanwar 8732400 ****/
+/* Same attributes as header, but position is now on bottom */
 footer {
     bottom: 0;
     left: 0;
@@ -52,10 +54,12 @@ footer {
     padding-top: 30px;
 }
 
+/* Same indent as header */
 footer p{
     margin: 0 100px 0 100px;
 }
 
+/* Attributes for the non clickable text on left side */
 footer .aLeft {
     float: left;
     color: white;
@@ -63,6 +67,7 @@ footer .aLeft {
     font-family: Ubuntu, sans-serif;
 }
 
+/* Link to privacy policy */
 footer .privacy {
     color: #F5686C;
     float: right;
@@ -71,6 +76,7 @@ footer .privacy {
     font-family: Ubuntu, sans-serif;
 }
 
+/* Attributes for contact info */
 footer .contact {
     color: #F5686C;
     float: right;
@@ -79,6 +85,7 @@ footer .contact {
     font-family: Ubuntu, sans-serif;
 }
 
+/* Attributes for the pop-up that appears on contact-info hover */
 span{
     border-radius: 10px;
     background-color: #34385B;
@@ -99,17 +106,20 @@ footer .contact:hover span{
 }
 
 /****  COMMON ELEMENTS - Coded by Atinderpaul Kanwar 8732400 ****/
+/* Indent for body of all pages */
 .layout {
     margin: 60px 100px 60px 100px;
 }
 
 /*Background */
+/* Attributes that all background must have */
 body {
     background-color: #F0F0F1;
     margin:0;
     padding:0;
 }
 
+/* The Header shrinks if the page reaches certain height so all buttons are still visible */
 @media screen and (max-width: 700px) {
     .nav {
         list-style-type: none;
@@ -156,6 +166,7 @@ h3 {
     font-size: 15pt;
 }
 
+/* Buttons */
 button {
     padding: 10px 20px;
     background: #F2EE74;
