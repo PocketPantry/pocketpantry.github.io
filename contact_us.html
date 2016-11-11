@@ -3,14 +3,15 @@
 <html>
 <head>
     <title>Contact Us</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">  <!-- linking style file to contact_us page -->
 </head>
 
 <body>
 <!-- Header -->
 <header class="nav">
-    <nav class="indent">
-        <a href="index.html"><img src="images/Logo.png"></a>
+    <nav class="indent">  <!-- Making sure that the indent on the nav bar is the same on both side (100px) -->
+        <a href="index.html"><img src="images/Logo.png"></a>  <!-- Logo will be linked to main page and on left side -->
+        <!-- All buttons will link to other pages and floating on the right side -->
         <nav class="li"><a href="contact_us.html">CONTACT US</a></nav>
         <nav class="li"><a href="features.html">FEATURES</a></nav>
         <nav class="li"><a href="about_us.html">ABOUT US</a></nav>
@@ -18,7 +19,7 @@
     </nav>
 </header>
 
-<!-- Google Maps for displaying the company HQ -->
+<!-- Google Maps for displaying the company HQ (Obtained from maps.google.com/) -->
 <div class="layout">
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2800.5030826685907!2d-75.68088098443889!3d45.41935917910042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce05a74e93237b%3A0x2e6c2c10b7581602!2sSITE%2C+800+King+Edward+Ave%2C+Ottawa%2C+ON+K1N!5e0!3m2!1sen!2sca!4v1477001891899"
             width= 100%
@@ -28,7 +29,7 @@
 
     <h1 style="padding-top: 1%">Contact Us</h1>
     <ul class="info">
-        <li style="margin-right: 3%; width: 41%">
+        <li style="margin-right: 3%; width: 41%"> <!-- First list will only take up 41% percent of any screen -->
             <h2>
                 Want to ask us something? <br>
                 Leave us a message and we'll return <br>
@@ -38,14 +39,13 @@
         </li>
 
         <li>
-            <form autocomplete="on" method="post">
+            <form autocomplete="on" method="post"> <!-- Form that supports auto complete -->
+                <!-- Form with placeholders(text) which disappears once user types something in the input box -->
                 <input name="name" class="font" size="25" placeholder="Full Name"><br />
                 <input name="email" class="font" size="25" placeholder="E-mail"><br />
                 <input name="subject" class="font" size="25" placeholder="Subject"><br />
                 <textarea name="message" class="font" placeholder="Your Message" rows="8" cols=80></textarea><br />
-                <button>
-                    SEND
-                </button>
+                <button>SEND</button> <!-- Send Button -->
             </form>
         </li>
     </ul>
@@ -55,8 +55,8 @@
 <footer>
     <p>
         <a class="aLeft">&copy; 2016 POCKET PANTRY</a>
-        <a class="contact">CONTACT INFO<span>800 King Edward Avenue<br>Ottawa ON Canada<br>K1N 6N5<br>Tel. 613-562-5918<br>Fax. 613-562-5187</span></a>
-        <a class="privacy" href="files/Privacy_Policy.pdf" target="_blank">PRIVACY POLICY</a>
+        <a class="contact">CONTACT INFO<span>800 King Edward Avenue<br>Ottawa ON Canada<br>K1N 6N5<br>Tel. 613-562-5918<br>Fax. 613-562-5187</span></a> <!-- Info placed in the pop up -->
+        <a class="privacy" href="files/Privacy_Policy.pdf" target="_blank">PRIVACY POLICY</a> <!-- Linked to privacy policy that opens in a new tab -->
     </p>
 </footer>
 </body>
