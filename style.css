@@ -80,6 +80,7 @@ footer .contact {
 }
 
 span{
+    border-radius: 10px;
     background-color: #34385B;
     color: white;
     text-decoration: none;
@@ -87,10 +88,10 @@ span{
     position: absolute;
     float: right;
     display: none;
-    bottom: 60px;
+    bottom: 65px;
     right: 100px;
     line-height: 1.5;
-    padding: 1% 1% 0 1%;
+    padding: 1%;
 }
 
 footer .contact:hover span{
@@ -257,35 +258,35 @@ button:hover{
     }
 
     60%{
-        left: -300%;
+        left: 0;
     }
 
     70%{
-        left: -300%;
+        left: 0;
     }
 
     72%{
-        left: -200%;
+        left: -100%;
     }
 
     82%{
-        left: -200%;
+        left: -100%;
     }
 
     84%{
-        left: -100%;
+        left: -200%;
     }
 
     94%{
-        left: -100%;
+        left: -200%;
     }
 
     96%{
-        left: 0;
+        left: -300%;
     }
 
     100%{
-        left: 0;
+        left: -300%;
     }
 }
 
