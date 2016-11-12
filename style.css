@@ -44,7 +44,7 @@
 footer {
     bottom: 0;
     left: 0;
-    position: absolute;
+    position: relative;
     width: 100%;
     list-style-type: none;
     background-color: #34385B;
