@@ -41,7 +41,7 @@
 /****  FOOTER - Coded by Atinderpaul Kanwar 8732400 ****/
 footer {
     bottom: 0;
-    position: relative;
+    position: absolute;
     width: 100%;
     background-color: #34385B;
     box-sizing: border-box;
