@@ -183,7 +183,7 @@ button {
     background: #F2EE74;
     border-radius: 20px;
     display:block;
-    width: 110px;
+    width: auto;
 }
 
 button a{
