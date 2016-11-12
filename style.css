@@ -40,15 +40,11 @@
 }
 
 /****  FOOTER - Coded by Atinderpaul Kanwar 8732400 ****/
-.holder {
-    width: 100%;
-    height: 100%;
-}
 /* Same attributes as header, but position is now on bottom */
 footer {
     bottom: 0;
     left: 0;
-    position: relative;
+    position: absolute;
     width: 100%;
     list-style-type: none;
     background-color: #34385B;
