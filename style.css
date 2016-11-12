@@ -126,7 +126,6 @@ body {
     background-color: #F0F0F1;
     margin:0;
     padding:0;
-    height:100%;
 }
 
 /* The Header shrinks if the page reaches certain height so all buttons are still visible */
