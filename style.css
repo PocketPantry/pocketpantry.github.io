@@ -1,3 +1,13 @@
+#container {
+    min-height:100%;
+    position:relative;
+}
+
+#body {
+    padding:10px;
+    padding-bottom:60px;   /* Height of the footer */
+}
+
 /****  HEADER - Coded by Atinderpaul Kanwar 8732400 ****/
 /* Changed original header properties such as background, position */
 .nav {
@@ -44,7 +54,7 @@
 footer {
     bottom: 0;
     left: 0;
-    position: relative;
+    position: absolute;
     width: 100%;
     list-style-type: none;
     background-color: #34385B;
@@ -108,7 +118,7 @@ footer .contact:hover span{
 /****  COMMON ELEMENTS - Coded by Atinderpaul Kanwar 8732400 ****/
 /* Indent for body of all pages */
 .layout {
-    margin: 60px 100px 60px 100px;
+    margin: 60px 100px 0 100px;
 }
 
 /*Background */
@@ -117,6 +127,7 @@ body {
     background-color: #F0F0F1;
     margin:0;
     padding:0;
+    height:100%;
 }
 
 /* The Header shrinks if the page reaches certain height so all buttons are still visible */
