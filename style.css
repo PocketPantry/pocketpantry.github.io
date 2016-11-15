@@ -144,12 +144,17 @@ body {
     }
 }
 
+/**** TEXT - Coded by All ****/
 /* Main Font */
 .font {
     font-family: 'Ubuntu', sans-serif;
 }
 
-/****  Headings  ****/
+p1 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Headings */
 h1 {
     font-family: 'Ubuntu', sans-serif;
     color: #09BA8E;
@@ -170,16 +175,20 @@ h3 {
 }
 
 button {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15pt;
     padding: 10px 20px;
     background: #F2EE74;
     border-radius: 20px;
     display:block;
     width: 110px;
+    text-shadow: none;
+    box-shadow: none;
 }
 
 button a{
-    font-family: 'ubuntu', sans-serif;
-    font-size: 20pt;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15pt;
     text-decoration: none;
     text-align: center;
     color: #34385B
@@ -189,9 +198,9 @@ button:hover{
     background-color: #09BA8E;
     color: #F0F0F1;
 }
-/**** end coded by Atinderpaul Kanwar ****/
 
-/****  HOME PAGE  ****/
+
+/****  HOME PAGE - Coded by Joshua Kayoda ****/
 
 .button-container{
     position:absolute;
@@ -309,7 +318,7 @@ button:hover{
     float: right
 }
 
-/****  FEATURES  ****/
+/****  FEATURES - Coded by Aleeza Ladhani ****/
 
 .blocks-left {
     margin: 5px;
@@ -343,21 +352,22 @@ button:hover{
 
 
 .photo-grid {
-    margin: 1em auto;
+    margin: 0.5em auto;
     max-width: 100%;
     text-align: center;
 }
 
 .photo-grid li {
-    border: 5px solid white;
+    border: none;
     display: inline-block;
-    margin: 1em;
+    margin: -1.5%;
+    height: auto;
     width: auto;
 }
 
 .photo-grid img {
     display: block;
-    height: auto;
+    height: 100%;
     -wekbit-transition: all 300ms;
     -moz-transition: all 300ms;
     transition: all 300ms;
@@ -382,6 +392,7 @@ button:hover{
     color: white;
     display: table;
     height: 100%;
+    width: 100%;
     left: 0;
     opacity: 0;
     position: absolute;
@@ -402,7 +413,8 @@ button:hover{
     font-family: 'Ubuntu', sans-serif;
     position: relative;
     top: -40px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
     -wekbit-transition: all 300ms ease-out;
     -moz-transition: all 300ms ease-out;
     transition: all 300ms ease-out;
@@ -420,7 +432,7 @@ button:hover{
 }
 
 
-/****  ABOUT US  ****/
+/****  ABOUT US - Coded by Ebrahim Khan ****/
 .img {
     display: inline-block;
     position: relative;
